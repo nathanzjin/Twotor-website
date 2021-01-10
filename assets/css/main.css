@@ -3796,9 +3796,9 @@ input, select, textarea {
 		}
 
 		.styled-table thead tr {
-			background-color: #009879;
+			background-color: #44e4a4;
 			color: #ffffff;
-			text-align: left;
+			text-align: center;
 		}
 
 		.styled-table th,
