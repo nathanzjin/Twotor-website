@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Edit Profile</title>
+		<title>Create an Account</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1>Edit Profile</h1>
+						<h1>Create an Account</h1>
 					</header>
 
 				<!-- Main -->
@@ -38,9 +38,33 @@
 										<input type="password" name="pword" size="25" />  
 										<br /> 
 									New Password  
-										<input type="password" name="pword" size="25" />  
+										<input type="password" name="pword" size="25" /> 
 									</form>  
+								
+								Check proficient subjects:
+								<br /> 
+								<br /> 
+								<form action="/action_page.php">
+									<input type="checkbox" id="subject1" name="subject1" value="Math">
+									<label for="subject1"> Math</label><br>
+									<input type="checkbox" id="subject2" name="subject2" value="Science">
+									<label for="subject2"> Science</label><br>
+									<input type="checkbox" id="subject3" name="subject3" value="English">
+									<label for="subject3"> English</label><br>
+								</form> 
+								<br /> 
+
+								<form action="/action_page.php">
+									Upload your Transcript
+									<br /> 
+									<input type="file" id="myFile" name="filename">
+								</form> 
+								<br /> 
+								<ul class="actions">
+									<li><a href="profile.html" class="button">Submit</a></li>
+								</ul>
 							</section>
+						
 
 					</div>
 
