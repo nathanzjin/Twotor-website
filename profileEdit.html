@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Create an Account</title>
+		<title>Edit Profile</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<h1>Create an Account</h1>
+						<h1>Edit Profile</h1>
 					</header>
 
 				<!-- Main -->
@@ -29,31 +29,25 @@
 							<section id="content" class="main"> 
 								<form method="post">  
 									Full Name  
-										<input type="text" name="fname" placeholder="John Smith" value="John Smith" size="25"/>  
-										<br />  
-									Email Address 
-										<input type="text" name="eaddress" size="25" />  
-										<br />  
-									Current Password  
-										<input type="password" name="pword" size="25" />  
-										<br /> 
-									New Password  
-										<input type="password" name="pword" size="25" /> 
-									</form>  
+                                                <input type="text" name="fname" placeholder="Allison Du" value="Allison Du" size="25"/>  
+                                                <br />  
+                                            Email Address 
+                                                <input type="text" name="eaddress" placeholder="allial.du@gmail.com" value="allial.du@gmail.com"size="25" />  
+                                                <br />  
+                                            Gender
+                                                <input type="text" name="gender" placeholder="Female" value="female" size="25" />  
+                                                <br /> 
+                                            Age 
+                                                <input type="text" name="age" placeholder="18" value="18" size="25" /> 
+                                            </form> 
+                                            
+											Add courses you need help in:
+											<input type="text" name="subjects" placeholder="comma seperated list" value="" size="25" /> 
+											<br />               
 								
-								Check proficient subjects:
-								<br /> 
-								<br /> 
-								<form action="/action_page.php">
-									<input type="checkbox" id="subject1" name="subject1" value="Math">
-									<label for="subject1"> Math</label><br>
-									<input type="checkbox" id="subject2" name="subject2" value="Science">
-									<label for="subject2"> Science</label><br>
-									<input type="checkbox" id="subject3" name="subject3" value="English">
-									<label for="subject3"> English</label><br>
-								</form> 
-								<br /> 
-
+								Add proficient subjects:
+								<input type="text" name="subjects" placeholder="comma seperated list" value="" size="25" /> 
+                                <br /> 
 								<form action="/action_page.php">
 									Upload your Transcript
 									<br /> 
@@ -61,7 +55,7 @@
 								</form> 
 								<br /> 
 								<ul class="actions">
-									<li><a href="profile.html" class="button">Submit</a></li>
+									<li><a href="profile2.html" class="button">Submit</a></li>
 								</ul>
 							</section>
 						
@@ -69,14 +63,29 @@
 					</div>
 
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+			<!-- Footer -->
+			<footer id="footer">
+				<section>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+						<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+					</ul>
+				</section>
+			</footer>
 
-	</body>
+		</div>
+
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+
+</body>
 </html>
