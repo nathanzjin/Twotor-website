@@ -20,20 +20,59 @@
 				<!-- Header -->
 					<header id="header">
 						<h1>My Profile</h1>
-					</header>
-
+                    </header>
+                    
+                    <nav id="nav">
+						<ul>
+							<li><a href="index.html"> Home</a></li>
+							<li><a href="profile.html" class="active">My Profile</a></li>
+							<li><a href="profile.html">Matching</a></li>
+							<li><a href="profile.html">Get Started</a></li>
+						</ul>
+					</nav>
 				<!-- Main -->
 					<div id="main">
 
 						<!-- Content -->
 							<section id="content" class="main">
-                                <h2>Magna feugiat lorem</h2>
+                                
                                 <div class="spotlight">
-                                    <span class="image"><img src="images/sana.jpg" alt="" /></span>
-                                    <ul class="actions">
-                                        <li><a href="generic.html" class="button">edit profile</a></li>
-                                    </ul>
+                                    
+                                    <meta name="viewport" content="width=device-width, initial-scale=1">
+                                    <style>
+                                    img {
+                                        display: block;
+                                        margin-left: auto;
+                                        margin-right: auto;
+                                    }
+                                    </style>
+                                    <img src="images/sana.jpg" alt="" width="150" height="150">
+                                    
                                 </div>
+                                <style>
+                                    .container { 
+                                      position: relative;
+                                    }
+                                    
+                                    .center {
+                                      margin: 0;
+                                      position: absolute;
+                                      top: 50%;
+                                      left: 50%;
+                                      -ms-transform: translate(-50%, -50%);
+                                      transform: translate(-50%, -50%);
+                                    }
+                                    </style>
+                                    
+                                    
+                                    
+                                    <div class="container">
+                                      <div class="center">
+                                        <ul class="actions">
+                                        <li><a href="profileEdit.html" class="button">edit profile</a></li>
+                                        </ul>
+                                      </div>
+                                    </div>
 							</section>
 
 					</div>
