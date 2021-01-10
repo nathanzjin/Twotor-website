@@ -106,12 +106,13 @@ input, select, textarea {
 	}
 
 	body {
-		background-color: #69d460;
-		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg, #0af1cf 15%, #69d460 85%);
-		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #0af1cf 15%, #69d460 85%);
-		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #0af1cf 15%, #69d460 85%);
-		background-image: url("images/overlay.png"), linear-gradient(45deg, #0af1cf 15%, #69d460 85%);
+		background-color:  #93da97;
+		background-image: url("images/overlay.png"), -moz-linear-gradient(45deg,  #93da97 15%, #8d91ebf5 85%);
+		background-image: url("images/overlay.png"), -webkit-linear-gradient(45deg, #93da97 15%,  #8d91ebf5 85%);
+		background-image: url("images/overlay.png"), -ms-linear-gradient(45deg, #93da97 15%,  #8d91ebf5 85%);
+		background-image: url("images/overlay.png"), linear-gradient(45deg,  #93da97 15%,  #8d91ebf5 85%);
 	}
+
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
 			-moz-animation: none !important;
